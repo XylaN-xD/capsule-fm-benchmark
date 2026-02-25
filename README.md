@@ -48,7 +48,6 @@ endoscopic-lesion-localization/
 │
 ├── README.md
 ├── docs/
-│   ├── problem_statement.md
 │   ├── methodology.md
 │   └── workflow.html
 │
