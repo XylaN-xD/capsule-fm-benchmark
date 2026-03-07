@@ -31,7 +31,7 @@
   
   <!-- Branches Overview -->
   <details>
-    <summary><b>🌿 Repository Branches</b></summary>
+    <summary><b>🪾 Repository Current Branches</b></summary>
     <br>
     <table>
       <tr>
