@@ -32,7 +32,7 @@
       </tr>
       <tr>
         <td><code>main</code></td>
-        <td>Stable release (coming soon)</td>
+        <td>🔜 Stable release (coming soon)</td>
       </tr>
       <tr>
         <td><code>data-preparation</code></td>
