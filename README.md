@@ -1,22 +1,19 @@
 # 🔬 Endoscopic Lesion Localization
 
 <div align="center">
-  
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=2800&pause=500&color=2F81F7&center=true&vCenter=true&width=600&lines=Gastrointestinal+Imaging+Research;Capsule+Endoscopy+Analysis;Mucosal+Lesion+Detection;Intestinal+Tuberculosis+Study" alt="Typing Animation" />
+
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=2800&pause=500&color=2F81F7&center=true&vCenter=true&width=600&lines=Gastrointestinal+Imaging+Research;Capsule+Endoscopy+Analysis;Mucosal+Lesion+Detection;Foundation+Model+Benchmarking" />
 
 <div align="center">
   <img src="dna.svg" alt="DNA Animation" />
 </div>
-   
-  <!-- Status Badges -->
-  <img src="https://img.shields.io/badge/Phase-Model%20Exploring-2F81F7?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Status-Research%20Prototype-yellow?style=for-the-badge" />
-  
-  <br>
-  <br>
 
-<!-- Links -->
- <table>
+  <img src="https://img.shields.io/badge/Phase-Benchmark%20Evaluation-2F81F7?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Research%20Prototype-yellow?style=for-the-badge" />
+
+  <br><br>
+
+<table>
   <tr>
     <td align="center"><b>📊 Workflow</b></td>
     <td align="center"><b>💻 Interface</b></td>
@@ -25,101 +22,178 @@
   <tr>
     <td align="center"><a href="https://itbworkflow.vercel.app"><img src="https://img.shields.io/badge/View-Workflow-2F81F7?style=flat-square&logo=vercel" /></a></td>
     <td align="center"><a href="https://abdtb.vercel.app/"><img src="https://img.shields.io/badge/View-Interface-2F81F7?style=flat-square&logo=vercel" /></a></td>
-    <td align="center"><a href="https://drive.google.com/drive/folders/1XQCivGj5UsD78iUjcUe_vsKN8wfFq5zy?usp=drive_link"><img src="https://img.shields.io/badge/Google_Drive-Documentation%20%26%20Dataset-4285F4?style=flat-square&logo=google-drive" alt="Google Drive - Documentation & Dataset"/> </a></td>
+    <td align="center"><a href="https://drive.google.com/drive/folders/1XQCivGj5UsD78iUjcUe_vsKN8wfFq5zy?usp=drive_link"><img src="https://img.shields.io/badge/Google_Drive-Documentation%20%26%20Dataset-4285F4?style=flat-square&logo=google-drive"/></a></td>
   </tr>
 </table>
-  
-  <br>
-  
-  <!-- Branches Overview -->
-  <details>
-    <summary><b>🪾 Repository Current Branches</b></summary>
-    <br>
-    <table>
-      <tr>
-        <th>Branch</th>
-        <th>Purpose</th>
-      </tr>
-      <tr>
-        <td><code>main</code></td>
-        <td>🔜 Stable release (coming soon)</td>
-      </tr>
-      <tr>
-        <td><code>data-preparation</code></td>
-        <td>🔵 Active - Dataset creation & annotation</td>
-      </tr>
-      <tr>
-        <td><code>frontend</code></td>
-        <td>🟡 In Progress - UI development</td>
-      </tr>
-    </table>
-  </details>
-  
+
+<details>
+<summary><b>🪾 Repository Current Branches</b></summary>
+
+| Branch | Purpose |
+|--------|--------|
+| main | Stable release |
+| data-prep | Data pipeline & ground truth |
+| evaluation | Metrics & benchmarking |
+| medsam | Segmentation & inference |
+| models | CLIP / BLIP / LLaVA |
+| frontend | UI & visualization |
+
+</details>
+
 </div>
 
-## 📋 Overview
-This repository contains documentation and exploratory material for an ongoing **research-oriented project** focused on **detecting and localizing mucosal lesions from colonoscopic and capsule endoscopy images**.
+---
 
-The project is motivated by gastrointestinal conditions such as **intestinal (abdominal) tuberculosis**, where accurate identification of mucosal abnormalities plays a critical role in clinical assessment. The work is framed as a **proof-of-concept study**, emphasizing methodological development and experimental analysis rather than clinical deployment.
+## 📋 Overview
+
+This repository contains a **research-oriented pipeline** for lesion detection and segmentation in capsule endoscopy using the Kvasir-Capsule dataset.
+
+The project benchmarks **foundation models (CLIP, BLIP-2, LLaVA, MedSAM)** under zero-shot conditions to study their ability to generalize to medical imaging.
 
 ---
 
 ## 🔬 Problem Statement
 
-Given a collection of colonoscopic and capsule endoscopy images, the objective of this research is to design a learning framework capable of **detecting and localizing mucosal lesions suggestive of intestinal tuberculosis (ITB)**.
+Capsule endoscopy produces thousands of frames per procedure, making manual inspection inefficient.
 
-The current phase focuses exclusively on **visual lesion localization from endoscopic imagery**, serving as a foundational step toward more comprehensive clinical and multimodal analysis.
+This work evaluates:
+
+> Can pretrained foundation models generalize to capsule endoscopy without domain-specific training?
 
 ---
 
 ## 🧠 Project Scope
 
-### Included in the current phase
-- Unimodal analysis using endoscopic images  
-- Detection and localization of mucosal lesions  
-- Visual interpretability of model outputs  
+### Included
+- Endoscopic image analysis  
+- Lesion localization and segmentation  
+- Zero-shot model evaluation  
+- Quantitative metrics (IoU, Dice, F1)  
 
-### Out of scope for the current phase
-- Multimodal integration (CT enterography, histopathology, clinical text)  
-- Differential diagnosis between gastrointestinal conditions  
-- Automated clinical reasoning or reporting  
-- Claims of diagnostic or clinical performance  
-
----
-
-## 🧭 Methodological Overview
-
-The proposed workflow involves:
-1. Preprocessing and normalization of endoscopic images  
-2. Feature extraction using visual representation models  
-3. Localization of lesion-relevant regions  
-4. Generation of visual explanations highlighting areas of interest  
-
-A detailed description of the workflow and methodology is provided in the `docs/` directory.
+### Excluded
+- Clinical diagnosis  
+- Multimodal medical data  
+- Automated reporting  
 
 ---
 
-## 🗂 Repository Structure (Planned)
+## 🧭 Methodology
 
-```text
-endoscopic-lesion-localization/
-│
-├── README.md
-├── docs/
-│   ├── methodology.md
-|   ├── Gantt chart
-│   └── workflow.html
-│
-data/
-│   ├── README.md                    # Dataset overview, source, citation, access
-│   ├── metadata.json                # All image metadata in JSON format
-│   ├── preprocessing.json           # Preprocessing steps/config in JSON
-│   ├── annotation_protocol.json     # Annotation guidelines in JSON
-│   └── splits/                      # Train/val/test splits
-│       ├── train.txt
-│       ├── val.txt
-│       └── test.txt
-│
+1. Metadata parsing and bounding box extraction  
+2. Frame extraction and annotation  
+3. Model evaluation (CLIP, BLIP-2, LLaVA)  
+4. MedSAM segmentation using GT prompts  
+5. Metric computation and benchmark comparison  
+
+---
+
+## 🔄 Pipeline
+
+```
+metadata.json → bounding boxes → frame extraction → MedSAM → masks → evaluation
+```
+
+---
+
+## 🖼️ Visual Pipeline
+
+[PLACEHOLDER: pipeline_diagram.png]
+
+---
+
+## 📊 Dataset Summary
+
+| Class | Clips | Frames |
+|------|------|--------|
+| Ulcer | 29 | 782 |
+| Erosion | 46 | 397 |
+| Blood-fresh | 9 | 446 |
+| Polyp | 1 | 52 |
+
+---
+
+## 🧪 Models
+
+- CLIP  
+- BLIP-2  
+- LLaVA 1.5  
+- MedSAM  
+
+---
+
+## 📊 Results
+
+### Vision Models
+- CLIP → 30% accuracy  
+- BLIP-2 → 0% (hallucination)  
+- LLaVA → partial success  
+
+### MedSAM
+- Mean IoU → 0.5101  
+- Dice → 0.6152  
+- Micro F1 → 0.1795  
+
+---
+
+## 📉 Key Findings
+
+- Strong domain gap in medical imaging  
+- MedSAM produces good masks but low recall  
+- Blood class completely missed  
+- Fine-tuned CNNs outperform zero-shot models  
+
+---
+
+## 🖼️ Sample Outputs
+
+[PLACEHOLDER: ulcer_sample.png]  
+[PLACEHOLDER: erosion_sample.png]  
+[PLACEHOLDER: blood_sample.png]  
+[PLACEHOLDER: polyp_sample.png]  
+
+---
+
+## 🗂 Repository Structure
+
+```
+/
+├── data prep/
+├── evaluation/
+├── medsam/
 ├── models/
-├── experiments/
-└── utils/
+├── docs/
+├── README.md
+```
+
+---
+
+## 🚀 Execution
+
+```bash
+python build_ground_truth.py
+python evaluate.py
+python complete_metrics.py
+```
+
+---
+
+## 🔮 Future Work
+
+- Fine-tuning MedSAM  
+- Extend to 14 classes  
+- Temporal modeling  
+- Full LLaVA evaluation  
+
+---
+
+## 📚 References
+
+- Kvasir-Capsule Dataset  
+- MedSAM  
+- CLIP / BLIP-2  
+
+---
+
+## 🙌 Acknowledgement
+
+IDEAS — ISI Kolkata
