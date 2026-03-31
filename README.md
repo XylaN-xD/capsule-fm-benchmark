@@ -1,4 +1,5 @@
 # 🧬 Benchmarking Models for Capsule Endoscopy Lesion Detection and Segmentation for Vision LLMs
+
 <div align="center">
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=2800&pause=500&color=2F81F7&center=true&vCenter=true&width=640&lines=Gastrointestinal+Imaging+Research;Capsule+Endoscopy+Analysis;Mucosal+Lesion+Detection;Foundation+Model+Benchmarking" alt="Typing animation" />
@@ -13,6 +14,8 @@
 &nbsp;
 <img src="https://img.shields.io/badge/Status-Research%20Prototype-F5A623?style=for-the-badge" />
 &nbsp;
+
+
 <br><br>
 
 <table>
@@ -71,14 +74,14 @@
       <img src="https://img.shields.io/badge/Author-2F81F7?style=flat-square" />
     </td>
     <td align="center"><b>Ishan Jha</b></td>
-    <td align="center">IDEAS — ISI Kolkata</td>
+    <td align="center"></td>
   </tr>
   <tr>
     <td align="center">
       <img src="https://img.shields.io/badge/Author-2F81F7?style=flat-square" />
     </td>
     <td align="center"><b>Neil Lohit Bose</b></td>
-    <td align="center">IDEAS — ISI Kolkata</td>
+    <td align="center"></td>
   </tr>
   <tr>
     <td align="center">
@@ -88,7 +91,6 @@
     <td align="center">IDEAS — ISI Kolkata</td>
   </tr>
 </table>
-
 > *This research was conducted under the mentorship of **Dr. Sujoy K Biswas** at the IDEAS, Indian Statistical Institute Kolkata.*
 
 </div>
