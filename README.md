@@ -91,6 +91,7 @@
     <td align="center">IDEAS — ISI Kolkata</td>
   </tr>
 </table>
+
 > *This research was conducted under the mentorship of **Dr. Sujoy K Biswas** at the IDEAS, Indian Statistical Institute Kolkata.*
 
 </div>
