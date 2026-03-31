@@ -1,5 +1,4 @@
-# Endoscopic Lesion Localization
-
+# 🧬 Benchmarking Models for Capsule Endoscopy Lesion Detection and Segmentation for Vision LLMs
 <div align="center">
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=2800&pause=500&color=2F81F7&center=true&vCenter=true&width=640&lines=Gastrointestinal+Imaging+Research;Capsule+Endoscopy+Analysis;Mucosal+Lesion+Detection;Foundation+Model+Benchmarking" alt="Typing animation" />
