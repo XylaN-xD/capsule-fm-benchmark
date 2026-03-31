@@ -9,7 +9,7 @@
 </div>
    
   <!-- Status Badges -->
-  <img src="https://img.shields.io/badge/Phase-Data%20Preparation-2F81F7?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Phase-Model%20Exploring-2F81F7?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Status-Research%20Prototype-yellow?style=for-the-badge" />
   
   <br>
