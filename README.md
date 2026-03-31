@@ -31,11 +31,8 @@
 
 | Branch | Purpose |
 |--------|--------|
-| main | Stable release |
-| data-prep | Data pipeline & ground truth |
-| evaluation | Metrics & benchmarking |
-| medsam | Segmentation & inference |
-| models | CLIP / BLIP / LLaVA |
+| main | Documentation & entry |
+| data-preparation | Full pipeline |
 | frontend | UI & visualization |
 
 </details>
@@ -95,9 +92,9 @@ metadata.json → bounding boxes → frame extraction → MedSAM → masks → e
 
 ---
 
-## 🖼️ Visual Pipeline
+## 🖼️ Visual Workflow
 
-[PLACEHOLDER: pipeline_diagram.png]
+👉 https://itbworkflow.vercel.app
 
 ---
 
@@ -155,14 +152,15 @@ metadata.json → bounding boxes → frame extraction → MedSAM → masks → e
 
 ## 🗂 Repository Structure
 
-```
-/
+```text
+endoscopic-lesion-localization/
+│
+├── README.md
+├── Docs/
 ├── data prep/
 ├── evaluation/
 ├── medsam/
-├── models/
-├── docs/
-├── README.md
+└── models/
 ```
 
 ---
