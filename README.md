@@ -1,4 +1,4 @@
-# 🧬 Benchmarking Foundation Models for Capsule Endoscopy Lesion Detection and Segmentation for Vision LLMs
+![WhatsApp Image 2026-03-31 at 22 53 38](https://github.com/user-attachments/assets/830583de-1c63-48e4-a5f3-0edf630d0469)# 🧬 Benchmarking Foundation Models for Capsule Endoscopy Lesion Detection and Segmentation for Vision LLMs
 
 <div align="center">
 
@@ -251,7 +251,8 @@ Full interactive pipeline diagram: 👉 [itbworkflow.vercel.app](https://itbwork
 
 | Class | Sample |
 |---|---|
-| Ulcer | `[PLACEHOLDER: ulcer_sample.png]` |
+| Ulcer | `<img width="212" height="154" alt="image" src="https://github.com/user-attachments/assets/f4db39fe-6b0d-4a5a-b03e-822165d2727a" />
+` |
 | Erosion | `[PLACEHOLDER: erosion_sample.png]` |
 | Blood-fresh | `[PLACEHOLDER: blood_sample.png]` |
 | Polyp | `[PLACEHOLDER: polyp_sample.png]` |
